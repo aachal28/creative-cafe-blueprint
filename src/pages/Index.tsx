@@ -118,11 +118,7 @@ const Index = () => {
             ))}
           </div>
           <div className="text-center mt-8">
-            <a href="https://www.instagram.com/olivia.cafe.bistro_pune/" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" className="gap-2">
-                Follow @olivia.cafe.bistro_pune <ArrowRight className="h-4 w-4" />
-              </Button>
-            </a>
+            <span className="text-muted-foreground text-sm">Follow us on Instagram</span>
           </div>
         </div>
       </section>
