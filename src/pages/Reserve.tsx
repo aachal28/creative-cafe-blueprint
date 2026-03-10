@@ -37,8 +37,8 @@ const Reserve = () => {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <h1 className="text-5xl font-display mb-4">Reserve a Table</h1>
-              <p className="text-muted-foreground mb-8">Secure your spot at Olivia. Whether it's a romantic dinner or a group celebration, we'll make it special.</p>
-              <img src={heroCafe} alt="Olivia Cafe" className="rounded-lg w-full" />
+               <p className="text-muted-foreground mb-8">Secure your spot at The Social Brew. Whether it's a romantic dinner or a group celebration, we'll make it special.</p>
+               <img src={heroCafe} alt="The Social Brew" className="rounded-lg w-full" />
             </motion.div>
 
             <motion.form

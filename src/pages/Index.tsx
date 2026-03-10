@@ -21,13 +21,13 @@ const Index = () => {
   return (
     <Layout>
       {/* SEO */}
-      <title>Olivia Cafe Bistro Pune | Art Cafe & Creative Workshops in Pashan</title>
-      <meta name="description" content="Olivia Cafe Bistro in Pashan, Pune – a creative art cafe offering pottery workshops, artisan food, specialty coffee, and unique dining experiences. Book a table or join a workshop today." />
+      <title>The Social Brew Pune | Art Cafe & Creative Workshops in Pashan</title>
+      <meta name="description" content="The Social Brew in Pashan, Pune – a creative art cafe offering pottery workshops, artisan food, specialty coffee, and unique dining experiences. Book a table or join a workshop today." />
 
       {/* Hero */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroCafe} alt="Olivia Cafe Bistro interior" className="w-full h-full object-cover" />
+          <img src={heroCafe} alt="The Social Brew interior" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-primary/60" />
         </div>
         <motion.div
@@ -63,7 +63,7 @@ const Index = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display mb-4">More Than Just a Cafe</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              At Olivia, we blend artisan food with creative experiences — from pottery painting to canvas art, all in a warm, Instagram-worthy space.
+              At The Social Brew, we blend artisan food with creative experiences — from pottery painting to canvas art, all in a warm, Instagram-worthy space.
             </p>
           </motion.div>
 
@@ -118,11 +118,7 @@ const Index = () => {
             ))}
           </div>
           <div className="text-center mt-8">
-            <a href="https://www.instagram.com/olivia.cafe.bistro_pune/" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" className="gap-2">
-                Follow @olivia.cafe.bistro_pune <ArrowRight className="h-4 w-4" />
-              </Button>
-            </a>
+            <span className="text-muted-foreground text-sm">Follow us on Instagram</span>
           </div>
         </div>
       </section>
@@ -133,7 +129,7 @@ const Index = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
             <h2 className="text-4xl md:text-5xl font-display mb-6">Ready to Create & Celebrate?</h2>
             <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-              Whether it's a cozy dinner, a pottery date, or a creative team outing — Olivia has something special for you.
+              Whether it's a cozy dinner, a pottery date, or a creative team outing — The Social Brew has something special for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/reserve">

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, Instagram, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -40,12 +40,12 @@ const Contact = () => {
                   <a href="tel:+919321475905" className="flex items-center gap-3 hover:text-foreground transition-colors">
                     <Phone className="h-5 w-5 text-accent" /> +91 93214 75905
                   </a>
-                  <a href="mailto:hello@oliviacafebistro.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                    <Mail className="h-5 w-5 text-accent" /> hello@oliviacafebistro.com
-                  </a>
-                  <a href="https://www.instagram.com/olivia.cafe.bistro_pune/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                    <Instagram className="h-5 w-5 text-accent" /> @olivia.cafe.bistro_pune
-                  </a>
+                   <a href="mailto:hello@thesocialbrew.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
+                     <Mail className="h-5 w-5 text-accent" /> hello@thesocialbrew.com
+                   </a>
+                   <span className="flex items-center gap-3 text-muted-foreground">
+                     Follow us on Instagram
+                   </span>
                   <div className="flex items-center gap-3">
                     <Clock className="h-5 w-5 text-accent" /> Mon–Sun: 10 AM – 11 PM
                   </div>
@@ -54,8 +54,8 @@ const Contact = () => {
 
               {/* Google Maps */}
               <div className="rounded-lg overflow-hidden border h-64">
-                <iframe
-                  title="Olivia Cafe Bistro Location"
+                 <iframe
+                   title="The Social Brew Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0!2d73.8!3d18.53!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDMxJzQ4LjAiTiA3M8KwNDgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1"
                   width="100%"
                   height="100%"

@@ -18,15 +18,15 @@ const About = () => (
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <img src={cafeInterior} alt="Olivia Cafe Interior" className="rounded-lg w-full" />
+            <img src={cafeInterior} alt="The Social Brew Interior" className="rounded-lg w-full" />
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={{ ...fadeUp, visible: { ...fadeUp.visible, transition: { duration: 0.6, delay: 0.2 } } }}>
             <h2 className="text-3xl font-display mb-4">A Space Where Creativity Lives</h2>
             <p className="text-muted-foreground mb-4">
-              Nestled in the vibrant neighbourhood of Pashan, Olivia isn't just a cafe — it's a creative sanctuary. We started with a simple idea: what if you could paint pottery while sipping a perfectly crafted latte?
+              Nestled in the vibrant neighbourhood of Pashan, The Social Brew isn't just a cafe — it's a creative sanctuary. We started with a simple idea: what if you could paint pottery while sipping a perfectly crafted latte?
             </p>
             <p className="text-muted-foreground mb-4">
-              Today, Olivia is Pune's go-to destination for couples seeking unique date experiences, friends looking for creative hangouts, and families wanting something beyond the ordinary.
+              Today, The Social Brew is Pune's go-to destination for couples seeking unique date experiences, friends looking for creative hangouts, and families wanting something beyond the ordinary.
             </p>
             <p className="text-muted-foreground">
               Every corner of our space tells a story — from the handmade pottery adorning our shelves to the aroma of freshly baked pizzas from our artisan kitchen.

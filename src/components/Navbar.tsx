@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Olivia Cafe Bistro" className="h-10 w-auto" />
+          <img src={logo} alt="The Social Brew" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop */}
@@ -44,9 +44,7 @@ const Navbar = () => {
           <Link to="/reserve">
             <Button size="sm">Book a Table</Button>
           </Link>
-          <a href="https://www.instagram.com/olivia.cafe.bistro_pune/" target="_blank" rel="noopener noreferrer">
-            <Instagram className="h-5 w-5 text-foreground hover:text-accent transition-colors" />
-          </a>
+          <span className="text-sm text-muted-foreground">Follow us on Instagram</span>
         </div>
 
         {/* Mobile */}
