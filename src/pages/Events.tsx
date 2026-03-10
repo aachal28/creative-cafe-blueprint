@@ -50,7 +50,7 @@ const Events = () => (
       <div className="container mx-auto max-w-4xl">
         <motion.div initial="hidden" animate="visible" variants={fadeUp} className="text-center mb-16">
           <h1 className="text-5xl font-display mb-4">Upcoming Events</h1>
-          <p className="text-muted-foreground text-lg">Mark your calendar — there's always something creative happening at Olivia.</p>
+          <p className="text-muted-foreground text-lg">Mark your calendar — there's always something creative happening at The Social Brew.</p>
         </motion.div>
 
         <div className="space-y-8">
