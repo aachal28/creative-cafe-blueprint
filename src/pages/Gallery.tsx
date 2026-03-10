@@ -33,7 +33,7 @@ const Gallery = () => {
         <div className="container mx-auto">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="text-center mb-12">
             <h1 className="text-5xl font-display mb-4">Gallery</h1>
-            <p className="text-muted-foreground">A peek inside the Olivia experience.</p>
+            <p className="text-muted-foreground">A peek inside The Social Brew experience.</p>
           </motion.div>
 
           <div className="flex flex-wrap justify-center gap-2 mb-10">

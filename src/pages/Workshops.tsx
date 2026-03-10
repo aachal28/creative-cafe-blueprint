@@ -75,7 +75,7 @@ const Workshops = () => {
         <div className="container mx-auto">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="text-center mb-16 max-w-2xl mx-auto">
             <h1 className="text-5xl font-display mb-4">Creative Workshops</h1>
-            <p className="text-muted-foreground text-lg">Unleash your inner artist. Join hands-on creative experiences at Olivia — no skills needed, just curiosity.</p>
+            <p className="text-muted-foreground text-lg">Unleash your inner artist. Join hands-on creative experiences at The Social Brew — no skills needed, just curiosity.</p>
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-20">

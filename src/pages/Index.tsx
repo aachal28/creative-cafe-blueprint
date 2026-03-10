@@ -129,7 +129,7 @@ const Index = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
             <h2 className="text-4xl md:text-5xl font-display mb-6">Ready to Create & Celebrate?</h2>
             <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-              Whether it's a cozy dinner, a pottery date, or a creative team outing — Olivia has something special for you.
+              Whether it's a cozy dinner, a pottery date, or a creative team outing — The Social Brew has something special for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/reserve">

@@ -73,7 +73,7 @@ const Events = () => (
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-4">
                   <div className="flex items-center gap-1"><CalendarDays className="h-4 w-4" /> {ev.date}</div>
                   <div className="flex items-center gap-1"><Clock className="h-4 w-4" /> {ev.time}</div>
-                  <div className="flex items-center gap-1"><MapPin className="h-4 w-4" /> Olivia, Pashan</div>
+                  <div className="flex items-center gap-1"><MapPin className="h-4 w-4" /> The Social Brew, Pashan</div>
                 </div>
                 <Link to="/workshops">
                   <Button size="sm">Register</Button>

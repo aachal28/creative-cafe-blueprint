@@ -44,9 +44,7 @@ const Navbar = () => {
           <Link to="/reserve">
             <Button size="sm">Book a Table</Button>
           </Link>
-          <a href="https://www.instagram.com/olivia.cafe.bistro_pune/" target="_blank" rel="noopener noreferrer">
-            <Instagram className="h-5 w-5 text-foreground hover:text-accent transition-colors" />
-          </a>
+          <span className="text-sm text-muted-foreground">Follow us on Instagram</span>
         </div>
 
         {/* Mobile */}

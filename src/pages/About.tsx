@@ -26,7 +26,7 @@ const About = () => (
               Nestled in the vibrant neighbourhood of Pashan, The Social Brew isn't just a cafe — it's a creative sanctuary. We started with a simple idea: what if you could paint pottery while sipping a perfectly crafted latte?
             </p>
             <p className="text-muted-foreground mb-4">
-              Today, Olivia is Pune's go-to destination for couples seeking unique date experiences, friends looking for creative hangouts, and families wanting something beyond the ordinary.
+              Today, The Social Brew is Pune's go-to destination for couples seeking unique date experiences, friends looking for creative hangouts, and families wanting something beyond the ordinary.
             </p>
             <p className="text-muted-foreground">
               Every corner of our space tells a story — from the handmade pottery adorning our shelves to the aroma of freshly baked pizzas from our artisan kitchen.
