@@ -18,7 +18,7 @@ const About = () => (
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <img src={cafeInterior} alt="Olivia Cafe Interior" className="rounded-lg w-full" />
+            <img src={cafeInterior} alt="The Social Brew Interior" className="rounded-lg w-full" />
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={{ ...fadeUp, visible: { ...fadeUp.visible, transition: { duration: 0.6, delay: 0.2 } } }}>
             <h2 className="text-3xl font-display mb-4">A Space Where Creativity Lives</h2>
