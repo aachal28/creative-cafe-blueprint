@@ -63,7 +63,7 @@ const Index = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display mb-4">More Than Just a Cafe</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              At Olivia, we blend artisan food with creative experiences — from pottery painting to canvas art, all in a warm, Instagram-worthy space.
+              At The Social Brew, we blend artisan food with creative experiences — from pottery painting to canvas art, all in a warm, Instagram-worthy space.
             </p>
           </motion.div>
 
