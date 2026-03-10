@@ -21,8 +21,8 @@ const Index = () => {
   return (
     <Layout>
       {/* SEO */}
-      <title>Olivia Cafe Bistro Pune | Art Cafe & Creative Workshops in Pashan</title>
-      <meta name="description" content="Olivia Cafe Bistro in Pashan, Pune – a creative art cafe offering pottery workshops, artisan food, specialty coffee, and unique dining experiences. Book a table or join a workshop today." />
+      <title>The Social Brew Pune | Art Cafe & Creative Workshops in Pashan</title>
+      <meta name="description" content="The Social Brew in Pashan, Pune – a creative art cafe offering pottery workshops, artisan food, specialty coffee, and unique dining experiences. Book a table or join a workshop today." />
 
       {/* Hero */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
