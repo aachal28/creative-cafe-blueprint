@@ -23,7 +23,7 @@ const About = () => (
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={{ ...fadeUp, visible: { ...fadeUp.visible, transition: { duration: 0.6, delay: 0.2 } } }}>
             <h2 className="text-3xl font-display mb-4">A Space Where Creativity Lives</h2>
             <p className="text-muted-foreground mb-4">
-              Nestled in the vibrant neighbourhood of Pashan, Olivia isn't just a cafe — it's a creative sanctuary. We started with a simple idea: what if you could paint pottery while sipping a perfectly crafted latte?
+              Nestled in the vibrant neighbourhood of Pashan, The Social Brew isn't just a cafe — it's a creative sanctuary. We started with a simple idea: what if you could paint pottery while sipping a perfectly crafted latte?
             </p>
             <p className="text-muted-foreground mb-4">
               Today, Olivia is Pune's go-to destination for couples seeking unique date experiences, friends looking for creative hangouts, and families wanting something beyond the ordinary.
