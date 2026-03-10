@@ -27,7 +27,7 @@ const Index = () => {
       {/* Hero */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroCafe} alt="Olivia Cafe Bistro interior" className="w-full h-full object-cover" />
+          <img src={heroCafe} alt="The Social Brew interior" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-primary/60" />
         </div>
         <motion.div
