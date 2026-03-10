@@ -40,12 +40,12 @@ const Contact = () => {
                   <a href="tel:+919321475905" className="flex items-center gap-3 hover:text-foreground transition-colors">
                     <Phone className="h-5 w-5 text-accent" /> +91 93214 75905
                   </a>
-                  <a href="mailto:hello@oliviacafebistro.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                    <Mail className="h-5 w-5 text-accent" /> hello@oliviacafebistro.com
-                  </a>
-                  <a href="https://www.instagram.com/olivia.cafe.bistro_pune/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                    <Instagram className="h-5 w-5 text-accent" /> @olivia.cafe.bistro_pune
-                  </a>
+                   <a href="mailto:hello@thesocialbrew.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
+                     <Mail className="h-5 w-5 text-accent" /> hello@thesocialbrew.com
+                   </a>
+                   <span className="flex items-center gap-3 text-muted-foreground">
+                     Follow us on Instagram
+                   </span>
                   <div className="flex items-center gap-3">
                     <Clock className="h-5 w-5 text-accent" /> Mon–Sun: 10 AM – 11 PM
                   </div>
