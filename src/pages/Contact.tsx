@@ -35,10 +35,10 @@ const Contact = () => {
                 <div className="space-y-3 text-muted-foreground">
                   <div className="flex items-start gap-3">
                     <MapPin className="h-5 w-5 text-accent mt-0.5" />
-                    <span>Olivia Cafe Bistro, Pashan, Pune, Maharashtra 411045</span>
+                    <span>The Social Brew, Pashan, Pune, Maharashtra 411045</span>
                   </div>
                   <a href="tel:+919321475905" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                    <Phone className="h-5 w-5 text-accent" /> +91 93214 75905
+                    <Phone className="h-5 w-5 text-accent" /> +91 98765 11111
                   </a>
                    <a href="mailto:hello@thesocialbrew.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
                      <Mail className="h-5 w-5 text-accent" /> hello@thesocialbrew.com

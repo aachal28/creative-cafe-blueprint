@@ -40,7 +40,7 @@ const Index = () => {
             Where Art Meets <span className="italic">Flavour</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 font-body">
-            A creative cafe experience in Pashan, Pune — sip, create & celebrate.
+            A creative cafe experience in Pashan, Pune sip, create & celebrate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/reserve">
@@ -63,14 +63,14 @@ const Index = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display mb-4">More Than Just a Cafe</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              At The Social Brew, we blend artisan food with creative experiences — from pottery painting to canvas art, all in a warm, Instagram-worthy space.
+              At The Social Brew, we blend artisan food with creative experiences from pottery painting to canvas art, all in a warm, Instagram-worthy space.
             </p>
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: UtensilsCrossed, title: "Artisan Kitchen", desc: "Handcrafted pizzas, fresh pasta, signature coffee & bakery delights made with love.", img: foodSpread, link: "/menu" },
-              { icon: Palette, title: "Creative Workshops", desc: "Pottery painting, canvas art, DIY crafts — unleash your inner artist.", img: potteryWorkshop, link: "/workshops" },
+              { icon: Palette, title: "Creative Workshops", desc: "Pottery painting, canvas art, DIY crafts your inner artist.", img: potteryWorkshop, link: "/workshops" },
               { icon: Calendar, title: "Special Events", desc: "Live music nights, couple pottery, themed evenings & community gatherings.", img: events, link: "/events" },
             ].map((item, i) => (
               <motion.div
@@ -129,7 +129,7 @@ const Index = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
             <h2 className="text-4xl md:text-5xl font-display mb-6">Ready to Create & Celebrate?</h2>
             <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-              Whether it's a cozy dinner, a pottery date, or a creative team outing — The Social Brew has something special for you.
+              Whether it's a cozy dinner, a pottery date, or a creative team outing The Social Brew has something special for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/reserve">
